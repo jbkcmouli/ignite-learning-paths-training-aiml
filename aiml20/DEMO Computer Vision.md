@@ -117,8 +117,13 @@ application for interfacing with URLs and collecting their outputs. The curl
 application comes pre-installed on most Linux distributions and in recent
 versions of Windows 10 (1706 and later). 
 
-Run the commands in the file [`vision_demo.sh`](vision_demo.sh). You can use a local Azure CLI or
-Azure Cloud Shell, but you must use bash as the shell.
+Run the commands in the file [`vision_demo.sh`](vision_demo.sh). You can use a
+local [Azure CLI](https://docs.microsoft.com/en-us/cli/azure/?view=azure-cli-latest?WT.mc_id=msignitethetour2019-github-aiml20)
+or [Azure Cloud Shell](https://docs.microsoft.com/en-us/azure/cloud-shell/overview?WT.mc_id=msignitethetour2019-github-aiml20), but you must use bash as the shell. (In the demo video, we
+use Azure Cloud Shell within Visual Studio Code, via the [Azure Account
+extension](https://marketplace.visualstudio.com/items?itemName=ms-vscode.azure-account).
+Run the `Azure: Sign In` and then the `Azure: Open Bash in Cloud Shell`
+commands, and note that Node.js 6 or later must be installed on Windows.)
 
 The commands in this script will:
 
